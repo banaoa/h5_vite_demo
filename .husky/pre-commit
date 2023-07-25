@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 如果出现奇怪的报错, 可以参考这个 https://github.com/typicode/husky/issues/247
+# 把nvm的默认nodejs版本切换下, 然后重启vscode才会生效
+# node --version
+npx lint-staged
