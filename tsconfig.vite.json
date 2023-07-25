@@ -6,7 +6,7 @@
     "module": "ESNext", // 指定模块系统
     "moduleResolution": "bundler", // 指定模块解析策略
     "allowSyntheticDefaultImports": true, // import自动创建默认导入
-    "lib": ["esnext", "dom"],
+    "lib": ["esnext", "dom"], // 编译过程中需要引入的库文件的列表
   },
   /* 应用于vite.config.ts这一文件 */
   "include": ["vite.config.ts"]
