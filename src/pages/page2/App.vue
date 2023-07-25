@@ -1,19 +1,17 @@
 <script lang="ts">
-
+const aaa = 123;
+console.log(123);
 </script>
-
-<template>
-  我是page2模块
-</template>
+<template>我是page2模块</template>
 
 <style lang="scss">
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    height: 100%;
-    border: 1px solid green;
+  height: 100%;
+  color: #2c3e50;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  border: 1px solid green;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 </style>
