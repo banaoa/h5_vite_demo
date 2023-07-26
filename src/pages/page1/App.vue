@@ -1,6 +1,15 @@
-<template>我是page1模块</template>
+<template>
+  我是page1模块
+  <div class="left">测试</div>
+</template>
 
 <style lang="scss">
+.left {
+  box-sizing: border-box;
+  width: 350px;
+  font-size: 14px;
+}
+
 #app {
   height: 100%;
   color: #2c3e50;

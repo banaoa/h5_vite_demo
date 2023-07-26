@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const aaa = 123;
+const aaa: number = 123;
 console.log(aaa);
 </script>
 <template>我是page2模块</template>
@@ -12,6 +12,7 @@ console.log(aaa);
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   border: 1px solid green;
+  user-select: none;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
